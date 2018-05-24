@@ -19,5 +19,6 @@ attr_accessor :name, :patient
 
   def appointments
     Appointment.all.select { |appointments| appointments.patient }
+  end
 
 end
