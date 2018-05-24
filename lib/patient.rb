@@ -17,6 +17,4 @@ attr_accessor :name
     Appointment.new
   end
 
-  def appointments
-
 end
