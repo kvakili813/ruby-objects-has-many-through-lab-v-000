@@ -14,7 +14,7 @@ attr_accessor :name, :patient
   end
 
   def new_appointment(doctor, date)
-    Appointment.new(self)
+    Appointment.new(date, self, doctor)
   end
 
 end
